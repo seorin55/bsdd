@@ -1,0 +1,332 @@
+.topBlackBox {
+    background-attachment: scroll;
+
+    border-color: black;
+    background-color: rgb(0, 0, 0);
+    background-size: 100%;
+    box-sizing: border-box;
+
+    display: block;
+    text-align: center;
+
+    height: 50px;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.covid19message {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-break: strict;
+    line-height: 18px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    position: relative;
+    text-decoration: underline;
+}
+
+.topLogoLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 80px;
+}
+
+.airbnbfont {
+    margin-left: 5px;
+}
+
+.topLogoLineFonts {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.topLogoLineLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 80px;
+}
+
+.topLogoLineMiddle {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 180px;
+}
+
+.topLogoLineRight {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.idIcons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 20px;
+    width: 57px;
+}
+
+.menuButton {
+    padding-top: 2.5px;
+    width: 20px;
+}
+
+.checkoutBoxes {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
+
+.checkoutBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 226px;
+    height: 64px;
+    background-color: white;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+.checkoutBox1Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+}
+
+.checkoutBoxTextSmallBox {
+    height: 17.6px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.checkoutBox2 {
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+    height: 64px;
+    background-color: white;
+}
+
+.checkoutBox2Text {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.checkoutBox3 {
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+    height: 64px;
+    background-color: white;
+}
+
+.checkoutBox3Text {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.checkoutBox4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 240px;
+    height: 64px;
+    background-color: white;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.checkoutBox4Text {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.searchButton {
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    background-color: rgb(255, 56, 92);
+    display: flex;
+    margin: auto 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.checkoutBoxTextSmall {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.checkoutBoxTextBig {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.ukraineBox {
+    box-sizing: border-box;
+    background-color: rgb(255, 56, 92);
+    border-radius: 10px;
+    width: 1100px;
+    height: 274px;
+    margin: 50px auto 0px;
+    padding: 0px 180px 0px 180px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.ukraineBoxText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+
+    margin: 0px auto 32px auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.findOutMore {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    justify-items: center;
+
+    display: flex;
+    align-items: center;
+
+    width: 135px;
+    height: 38px;
+
+    line-height: 32px;
+
+    padding: 0px 13px;
+    margin: 0px auto;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+
+    border-width: 0.5px;
+}
+
+.ukraineBoxFont {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px auto;
+}
+
+.tentBox {
+    background-image: url(https://a0.muscache.com/im/pictures/4b75813b-bc09-4719-b6b8-06a5f170724d.jpg?im_w=960);
+    background-origin: border-box;
+    background-size: cover;
+
+    border-radius: 10px;
+
+    width: 1100px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+
+    margin-top: 50px;
+}
+
+.tentBoxText {
+    margin: 378px auto 0px auto;
+}
+
+.tentBoxFont {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.tentBoxButton {
+    width: 106px;
+    padding: 12px 24px;
+    background-color: white;
+
+    margin: 16px auto 0px auto;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.tentBoxButtonText {
+    font-size: 18px;
+    font-weight: 800;
+
+    background-image: linear-gradient(
+        90deg,
+        rgb(111, 1, 156) 0%,
+        rgb(198, 1, 126) 135.12%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.middle {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
