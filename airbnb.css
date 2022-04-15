@@ -330,3 +330,167 @@ body {
     height: auto;
     background-color: black;
 }
+
+.hosting-part {
+    margin: 80px 80px 40px 80px;
+}
+
+.main-content {
+    background: url(https://a0.muscache.com/im/pictures/0528b0f7-4c0c-47bc-9786-d91454f531ba.jpg?im_w=1440) no-repeat center/cover;
+    height: 500px;
+    border-radius: 12px;
+    padding: 70px;
+}
+
+.hosting-question {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 105px;
+    margin-bottom: 135px;
+    letter-spacing: -0.02em;
+}
+
+.ask-superhost {    
+    color: #222222;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+#superhost-button {
+    display: flex;
+    height: 20px;
+    width: 215px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+a#superhost-button:hover {
+    background-color: #e9e9e9;
+}
+
+.quick-menu-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 48px;
+    font-size: 14px;
+}
+
+.bottom-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 14px;
+    border-top: 0.7px solid #d2d2d2;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    align-items: center;
+}
+
+ul {
+    font-weight: bold;
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.support {
+    flex: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.community {
+    flex: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.hosting {
+    flex: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.introduction {
+    flex: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.language-currency {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    border: 0px;
+    font-weight: 600;
+}
+
+.sns-list {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    margin-left: 32px;
+}
+
+.sns-service {
+    margin-top: 0;
+    margin-right: 24px;
+}
+
+#naver-post {
+    margin-top: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:visited {
+    color: #222222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.korean {
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.won {
+    text-decoration: underline;
+}
