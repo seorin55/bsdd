@@ -331,6 +331,172 @@ body {
     background-color: black;
 }
 
+.second-part span {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-weight: 600;
+}
+
+.second-part a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.trip-section,
+.activity-section {
+    padding-top: 96px;
+}
+
+.sub-title {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-title-text {
+    font-size: 33px;
+    letter-spacing: -0.66px;
+    line-height: 37px;
+    padding-bottom: 48px;
+    width: 1103.33px;
+}
+
+.trip-content,
+.activity-content {
+    display: flex;
+    justify-content: center;
+}
+
+.city-block-set {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1103.33px;
+    height: 344px;
+    column-gap: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.city-block {
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.city-block .image-container {
+    display: inline-block;
+    vertical-align: bottom;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 50%;
+}
+
+.city-block .image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.city-block .text-container {
+    display: inline-block;
+    vertical-align: bottom;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 50%;
+}
+
+.city-text-box {
+    height: 100%;
+    width: 100;
+    box-sizing: border-box;
+    padding: 20px 16px 16px;
+}
+
+.city-text {
+    padding-bottom: 8px;
+}
+
+.city-name {
+    font-size: 27px;
+    letter-spacing: -0.27px;
+    line-height: 30px;
+}
+
+.city-dist {
+    font-weight: 400;
+}
+
+#Seoul {
+    background: rgb(222, 49, 81);
+}
+
+#Incheon {
+    background: rgb(204, 45, 74);
+}
+
+#Daegu {
+    background: rgb(188, 26, 110);
+}
+
+#Daejeon {
+    background: rgb(217, 59, 48);
+}
+
+.activity-block-set {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1103.33px;
+    height: 617px;
+    column-gap: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.activity-block {
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#activity_1 {
+    background: url(https://a0.muscache.com/im/pictures/c2adcb16-6c3f-4041-86a1-afa9c303c500.jpg?im_w=1920) center/cover;
+}
+
+#activity_2 {
+    background: url(https://a0.muscache.com/im/pictures/c1bdf53f-2a19-4529-aa9b-1b0e6bd8d0ee.jpg?im_w=1920) center/cover;
+}
+
+.activity-block .text-container {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.activity-text {
+    font-size: 41px;
+    letter-spacing: -0.82px;
+    line-height: 46px;
+    padding-bottom: 24px;
+}
+
+.activity-button {
+    display: flex;
+    padding: 14px 24px;
+    line-height: 20px;
+    letter-spacing: -0.82px;
+    width: 32px;
+    height: 20.67px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#online {
+    width: 83.42px;
+    white-space: pre-line;
+}
+
+
 .hosting-part {
     margin: 80px 80px 40px 80px;
 }
