@@ -1,5 +1,25 @@
 /* 1st part - Siwon */
 
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    background-image: url(/blackBG.PNG);
+    background-size: 100% 880px;
+    background-repeat: no-repeat;
+}
+
+.mainContatner {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.header {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
 .topBlackBox {
     background-attachment: scroll;
 
@@ -11,15 +31,14 @@
     display: block;
     text-align: center;
 
+    margin-top: 0px;
+    padding-top: 0px;
+
     height: 50px;
     width: 100%;
 }
 
-/* body {
-    background-color: black;
-} */
-
-.header {
+header {
     height: 100px;
     width: 100%;
     background-color: black;
@@ -37,6 +56,10 @@
     padding-top: 16px;
     position: relative;
     text-decoration: underline;
+}
+
+.covid19message:hover {
+    color: gray;
 }
 
 .topLogoLine {
@@ -123,6 +146,10 @@
     border-bottom-left-radius: 32px;
 }
 
+.checkoutBox1:hover {
+    background-color: gray;
+}
+
 .checkoutBox1Text {
     display: flex;
     flex-direction: column;
@@ -146,6 +173,10 @@
     background-color: white;
 }
 
+.checkoutBox2:hover {
+    background-color: gray;
+}
+
 .checkoutBox2Text {
     display: flex;
     flex-direction: column;
@@ -159,6 +190,10 @@
     width: 196px;
     height: 64px;
     background-color: white;
+}
+
+.checkoutBox3:hover {
+    background-color: gray;
 }
 
 .checkoutBox3Text {
@@ -177,6 +212,10 @@
     background-color: white;
     border-top-right-radius: 32px;
     border-bottom-right-radius: 32px;
+}
+
+.checkoutBox4:hover {
+    background-color: gray;
 }
 
 .checkoutBox4Text {
@@ -266,6 +305,10 @@
     border-width: 0.5px;
 }
 
+.findOutMore:hover {
+    border-width: 2px;
+}
+
 .ukraineBoxFont {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -314,6 +357,10 @@
     justify-content: center;
 }
 
+.tentBoxButton:hover {
+    background-color: gray;
+}
+
 .tentBoxButtonText {
     font-size: 18px;
     font-weight: 800;
@@ -330,13 +377,13 @@
 .middle {
     width: 100%;
     height: auto;
-    background-color: black;
 }
 
 /* 2nd part - Seorin */
 
 .second-part span {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+        Helvetica Neue, sans-serif;
     font-weight: 600;
 }
 
@@ -425,7 +472,7 @@
 }
 
 .city-dist {
-    color: white;   
+    color: white;
     font-weight: 400;
 }
 
@@ -463,11 +510,13 @@
 }
 
 #activity_1 {
-    background: url(https://a0.muscache.com/im/pictures/c2adcb16-6c3f-4041-86a1-afa9c303c500.jpg?im_w=1920) center/cover;
+    background: url(https://a0.muscache.com/im/pictures/c2adcb16-6c3f-4041-86a1-afa9c303c500.jpg?im_w=1920)
+        center/cover;
 }
 
 #activity_2 {
-    background: url(https://a0.muscache.com/im/pictures/c1bdf53f-2a19-4529-aa9b-1b0e6bd8d0ee.jpg?im_w=1920) center/cover;
+    background: url(https://a0.muscache.com/im/pictures/c1bdf53f-2a19-4529-aa9b-1b0e6bd8d0ee.jpg?im_w=1920)
+        center/cover;
 }
 
 .activity-block .text-container {
@@ -501,7 +550,6 @@
     white-space: pre-line;
 }
 
-
 /* 3rd part - Hojun */
 
 .hosting-part {
@@ -509,7 +557,8 @@
 }
 
 .main-content {
-    background: url(https://a0.muscache.com/im/pictures/0528b0f7-4c0c-47bc-9786-d91454f531ba.jpg?im_w=1440) no-repeat center/cover;
+    background: url(https://a0.muscache.com/im/pictures/0528b0f7-4c0c-47bc-9786-d91454f531ba.jpg?im_w=1440)
+        no-repeat center/cover;
     height: 500px;
     border-radius: 12px;
     padding: 70px;
@@ -524,7 +573,7 @@
     letter-spacing: -0.02em;
 }
 
-.ask-superhost {    
+.ask-superhost {
     color: #222222;
     font-size: 16px;
     font-weight: 600;
